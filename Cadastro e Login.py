@@ -71,14 +71,8 @@ def clicar_botao_login(gmail, senha):
     resultado = verificar_login(gmail, senha)
     if resultado:
         abrir_janela_menu()
-        fecha()
     else:
         print("Credenciais inválidas. Tente novamente.")
-
-# Função para fechar a janela principal
-def fecha():
-    if clicar_botao_login:
-        janela.destroy()
 
 # Função para mostrar ou ocultar a senha
 def password(senha):
