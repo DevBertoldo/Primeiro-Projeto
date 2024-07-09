@@ -1,6 +1,5 @@
 import customtkinter
 import sqlite3
-import tkinter as tk
 from customtkinter import CTk
 
 
